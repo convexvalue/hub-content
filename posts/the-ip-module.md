@@ -25,10 +25,24 @@ You might have learned that delta is the derivative of option price with respect
 
 It also tells us what the probability is of the stock price ending up being worth something - i.e ending up above the strike price in the case of calls, or below strike price in the case of puts, by expiration.
 
-You'll notice this if you pull up an any option chain. You'll notice that options that are at-the-money have a delta of 0.5. Why? Because an at-the-money option has a 50/50 chance of expiring in-the-money and being worth something. If AAPL is at 100, an option with strike 100 will have a delta of 0.5 because at any point in time AAPL can go either up or down and render that option worthless.
+You'll notice this if you pull up an any option chain. You'll notice that options that are at-the-money have a delta of 0.5. Why? Because an at-the-money option has a 50/50 chance of expiring in-the-money and being worth something. If AAPL is at 100, an option with strike 100 will have a delta of 0.5 because at any point in time AAPL can go either up or down and render that option worthless. This is related to the concept of the *random-walk* which we won't explore further but the idea is that at any point in time stock price can go up or down a notch with an equal probability.
 
 You'll also notice that deep in-the-money options have a delta close to 1. For example a call strike 10 for AAPL will have a delta of 0.9, telling us it has a 90% chance of expiring in-the-money - it is almost certain that option will be worth something.
 
 Similarly, far out-of-the-money options have a very low delta. For example a call strike 500 for AAPL might have a delta of 0.05, telling us there is only a 5% chance that the option will be worth something because it is highly unlikely AAPL goes all the way up to 500.
 
 There are of course many other ingredients here that I am not mentioning - such as stock price volatility, expectations, time to expiration, forward price, and others - but the point is that by looking at the delta of options you can gain information about what probability the market is assigning to the option having a positive payoff at expiration, therefore - what probability the market is assigning to the stock price moving to a given level.
+
+## The Practice
+
+Now that we know about the information contained in the delta of options we can explore the option chain to construct probability ranges. This is exactly what the `ip` module does. So let's break it down.
+
+### The Forward Price
+
+Above I mentioned how the delta of the at-the-money option is 0.5. But, what is the at-the-money option?
+
+Usually, for short time frames (days) you can look at the current spot price and the at-the-money option is the closest to it. However, for longer time frames (months/years) the at-the-money option doesn't exactly match up with the current spot price.
+
+This is because
+
+The probabilities implied by delta are the probabilities *at expiration*.
