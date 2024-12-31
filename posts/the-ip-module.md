@@ -39,10 +39,18 @@ Now that we know about the information contained in the delta of options we can 
 
 ### The Forward Price
 
-Above I mentioned how the delta of the at-the-money option is 0.5. This is because if an option has a strike at the "current" price then there is a 50/50 chance the option will expire with a positive payoff because there is a 50/50 chance the stock will go up or down.
+Above I mentioned how the delta of the at-the-money option is 0.5 because it has a 50% chance of expiring in-the-money. This refers to the *next instant*.
 
-But what does "current" price mean?
+That is - if AAPL stock price is at 100 and we have a call option strike 100 expiring in the *next instant* - it will have a delta of 0.5 because there is a 50% chance the stock moves up in the *next instant* to give the option a positive payoff.
 
-Usually, for short time frames (days) you can look at the current spot price and the at-the-money option is the closest to it. However, for longer time frames (months/years) the at-the-money option doesn't exactly match up with the current spot price.
+What we did there is look at the current price, then look at the expiration date, and then look at the instant before expiration.
 
-This is because the probabilities implied by delta are the probabilities *at expiration*, and when *at expiration* is a longer time in the future,
+For short time frames (days) the current price and the current price an instant before expiration is usually the same.
+
+But for longer time frames (months/years) the current price but at at instant before expiration is different.
+
+This is due to cost-of-carry, time value of money, and other factors we aren't getting into right now.
+
+So, if AAPL is at 100 now and we want to analyze what the at-the-money strike is for an expiration 1 year from now we have to look at what AAPL price should be a year from now given it is 100 right now. This is the **forward price**.
+
+We can also work backwards. We can look at the option chain - find the strikes where delta is 0.5, and those are the strikes that correspond to the forward price.
