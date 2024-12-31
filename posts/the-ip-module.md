@@ -39,10 +39,10 @@ Now that we know about the information contained in the delta of options we can 
 
 ### The Forward Price
 
-Above I mentioned how the delta of the at-the-money option is 0.5. But, what is the at-the-money option?
+Above I mentioned how the delta of the at-the-money option is 0.5. This is because if an option has a strike at the "current" price then there is a 50/50 chance the option will expire with a positive payoff because there is a 50/50 chance the stock will go up or down.
+
+But what does "current" price mean?
 
 Usually, for short time frames (days) you can look at the current spot price and the at-the-money option is the closest to it. However, for longer time frames (months/years) the at-the-money option doesn't exactly match up with the current spot price.
 
-This is because
-
-The probabilities implied by delta are the probabilities *at expiration*.
+This is because the probabilities implied by delta are the probabilities *at expiration*, and when *at expiration* is a longer time in the future,
