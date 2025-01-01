@@ -61,7 +61,21 @@ This is one of the elements of the `ip` module: it displays the forward price fo
 ![SPX Forward Price](../assets/img/ip12322024_1_sm.png)
 
 
+### Probability Ranges
 
+Next up are probability ranges. Know that the option delta tells us the probability that the option will expire in-the-money.
+
+We can look at any option chain and find the call with a delta of 0.25. A delta of 0.25 means the option price implies a 25% chance of stock closing above that strike. We then look at the put with a delta of -0.25 - which also implies a 25% chance of the stock closing below that strike.
+
+We combine those two strikes and we have the **50% range** - the range of prices where stock price is expected to close within with a 50% probability.
+
+We can do this for any probability ranges you like!
+
+We have chosen to display the **50% range** and the **70% range**.
+
+These ranges are denoted by the two cones which are drawn with a blue line on the bottom (to denote that the level has been derived from put prices) and a yellow line on top (to denote that the level has been derived from call prices).
+
+![SPX Forward Price](../assets/img/ip12322024_1_sm2.png)
 
 
 
