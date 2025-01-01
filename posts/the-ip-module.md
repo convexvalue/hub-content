@@ -55,7 +55,7 @@ So, if AAPL is at 100 now and we want to analyze what the at-the-money strike is
 
 We can also work backwards. We can look at the option chain - find the strikes where delta is 0.5, and those are the strikes that correspond to the forward price.
 
-This is one of the elements of the `ip` module: it displays the .
+This is one of the elements of the `ip` module: it displays the forward price for each expiration:
 
 ![SPX Forward Price](../assets/img/ip12322024_1_sm.png)
 
