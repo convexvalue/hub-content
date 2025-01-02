@@ -75,11 +75,23 @@ We have chosen to display the **50% range** and the **70% range**.
 
 These ranges are denoted by the two cones which are drawn with a blue line on the bottom (to denote that the level has been derived from put prices) and a yellow line on top (to denote that the level has been derived from call prices).
 
-![SPX Forward Price](../assets/img/ip12322024_1_sm2.png)
+![SPX Probability Ranges](../assets/img/ip12322024_1_sm2.png)
 
 ### Labels
 
-Finally, the labels on top.
+Finally, the labels on top. Each expiration has a corresponding set of labels on top. The expiration date is on top, and 6 numbers are below.
+
+The numbers (except the red number) correspond to probability ranges. Each row has two numbers - the first is the nominal size of the range, the second is the percent size of the range.
+
+![IP Module Labels](../assets/img/ip12322024_1_sm2.png)
+
+The grey number is the 50% range. The yellow and blue numbers are both the ranges on the call and put side - respectively.
+
+This allows you to compare whether a given 50% or 70% range is priced more towards the call side vs the put side.
+
+### Expected Move
+
+
 
 
 
