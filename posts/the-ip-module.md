@@ -91,6 +91,10 @@ This allows you to compare whether a given 50% or 70% range is priced more towar
 
 ### Expected Move
 
+The last number - the red one - is the **straddle** price. Again, the number on the left is the nominal straddle price and the number in parenthesis is the percentage straddle price.
+
+This is a popular measure to understand the expected move for a stock.
+
 
 
 
