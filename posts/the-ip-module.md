@@ -77,6 +77,12 @@ These ranges are denoted by the two cones which are drawn with a blue line on th
 
 ![SPX Forward Price](../assets/img/ip12322024_1_sm2.png)
 
+### Labels
+
+Finally, the labels on top.
+
+
+
 
 
 
