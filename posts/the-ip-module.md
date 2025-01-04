@@ -7,8 +7,6 @@ excerpt: The IP module uses option prices to find the ranges where the underlyin
 description: The IP module uses option prices to find the ranges where the underlying is expected to close on a given expiration within a 50% and 70% range.
 ---
 
-# The IP Module
-
 IP stands for "Implied Probability". The IP module uses option prices to find the ranges where the underlying is expected to close on a given expiration within a 50% and 70% range.
 
 Here is how it works:
