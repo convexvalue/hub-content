@@ -1,7 +1,10 @@
 ---
 title: The IP Module
 date: 2024-12-31
-edited: 2025-01-01
+edited: 2025-01-03
+image: /assets/img/ip12322024_1_sm_cover.png
+excerpt: The IP module uses option prices to find the ranges where the underlying is expected to close on a given expiration within a 50% and 70% range.
+description: The IP module uses option prices to find the ranges where the underlying is expected to close on a given expiration within a 50% and 70% range.
 ---
 
 # The IP Module
@@ -83,7 +86,7 @@ Finally, the labels on top. Each expiration has a corresponding set of labels on
 
 The numbers (except the red number) correspond to probability ranges. Each row has two numbers - the first is the nominal size of the range, the second is the percent size of the range.
 
-![IP Module Labels](../assets/img/ip12322024_1_sm2.png)
+![IP Module Labels](../assets/img/ip12322024_1_sm3.png)
 
 The grey number is the 50% range. The yellow and blue numbers are both the ranges on the call and put side - respectively.
 
