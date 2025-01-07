@@ -1,9 +1,9 @@
 ---
-title: Start
+title: README
 date: 2025-01-06
 edited: 2025-01-06
-excerpt: Getting Started with ConvexValue
-description: Getting Started with ConvexValue
+excerpt: ConvexValue README
+description: ConvexValue README
 ---
 
 To understand what we aim to do with The ConvexValue Terminal - let's first picture the status quo.
