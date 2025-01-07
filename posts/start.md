@@ -8,9 +8,9 @@ description: Getting Started with ConvexValue
 
 Welcome!
 
-If you haven't gone to the [/member](Member Portal) to download The ConvexValue Terminal, then go ahead and do that.
+If you haven't gone to the [Member Portal](/member) to download The ConvexValue Terminal, then go ahead and do that.
 
-Then - you can watch this <a href="https://youtu.be/KGh1Ifp9d0Q" target="_blank">flash tutorial</a> which jams everything into 3 minutes. 
+Then - you can watch this <a href="https://youtu.be/KGh1Ifp9d0Q" target="_blank">flash tutorial</a> which jams everything into 3 minutes.
 
 That might be all you need to begin operating The ConvexValue Terminal. We also have a more comprehensive <a href="https://youtube.com/playlist?list=PLZ1U1sZz8HSDTIxy6eE14ZA-dBPcRcV_T&si=V8JJfgjZuxAmJ9TK" target="_blank">tutorial series</a> which goes into more detail.
 
