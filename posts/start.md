@@ -6,60 +6,22 @@ excerpt: Getting Started with ConvexValue
 description: Getting Started with ConvexValue
 ---
 
-To understand what we aim to do with The ConvexValue Terminal - let's first picture the status quo.
+Welcome!
 
-## Status Quo
+If you haven't gone to the [/member](Member Portal) to download The ConvexValue Terminal, then go ahead and do that.
 
-There are plenty of options analytics tools. Both "free" and paid.
+Then - you can watch this <a href="https://youtu.be/KGh1Ifp9d0Q" target="_blank">flash tutorial</a> which jams everything into 3 minutes. 
 
-### "Free" and Paid Tools
+That might be all you need to begin operating The ConvexValue Terminal. We also have a more comprehensive <a href="https://youtube.com/playlist?list=PLZ1U1sZz8HSDTIxy6eE14ZA-dBPcRcV_T&si=V8JJfgjZuxAmJ9TK" target="_blank">tutorial series</a> which goes into more detail.
 
-The "free" tools aren't really "free" - nothing is. You are paying with your eyeballs and attention. Their business model relies on ads. You have to navigate through heaps of extracurricular content to find what you are looking for.
+Both the flash tutorial and the series will teach you how to create dashboards, how to split-panes, configure modules, save, share, clone dashboards, etc.
 
-Why are you forced to download megabytes of ads and news reels just to see the market cap of AAPL ?
+However, you aren't here just to play around with the Terminal. The Terminal is just a tool, the goal is the market.
 
-It is a strain on your computer resources and your eyes.
+To learn the various ways you can utilize the Terminal to gain market insight, make trades, form hypothesis and understand market movement - [The Hub](/hub) contains posts ranging from tutorials to analysis, to updates.
 
-Paid tools don't tend to suffer from this issue - you are paying for it upfront.
+Any questions, issues, feedback - anything! - I am at your service.
 
-However, due to the nature of delivering options data - you are most likely overpaying.
+Thank you for giving ConvexValue a shot!
 
-There are high costs involved in licenses and infrastructure - and providers are often forced to rely on high markups to operate their businesses profitably.
-
-Some of these paid tools are very good - but they rarely cover all your needs. Which means you need other paid tools that are often redundant.
-
-This is the problem you knew you had - but there is another one you didn't know.
-
-### The Browser
-
-All of these tools are *web-apps* that you run on your browser (Chrome, Safari, etc). They are usually designed as full-blown apps intended to occupy your entire screen space. But you aren't usually using just one of them in the entire screen.
-
-You are often using many. This means you have many browser tabs and windows scattered around the screen running many more processes than you need.
-
-This clutter is distracting.
-
-But even worse - it doesn't let you organize your research and trade ideas, or share with others. The browser wasn't built for this.
-
-### The Result
-
-The result is the following:
-
-You are getting your tools and data from an assortment of free and paid tools, overpaying for multiple and redundant subscriptions, in a jarring customer experience due to having to navigate and manage so many different sites.
-
-This all happens in a haystack of browser tabs and windows impossible to organize.
-
-But there is a better way.
-
-## ConvexValue
-
-The ConvexValue Terminal replaces your browser. But it isn't just another browser.
-
-It is a software product custom-built from the ground up for the sole purpose of doing financial analytics.
-
-Instead of browsing the internet - you browse ConvexValue **modules**.
-
-**Modules** are self-contained financial analytics mini-apps, or widgets.
-
-It features the ability to create split-pane dashboards - letting you see multiple things at once instead of only one website at a time.
-
-By utilizing this modular architecture where we build and publish **modules** for you to build dashboards on the terminal - instead of large monolithic apps - we are able to deliver more features, ship faster, and reduce the cost.
+Juan Bernardo Tobar
