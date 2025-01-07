@@ -51,3 +51,9 @@ This all happens in a haystack of browser tabs and windows impossible to organiz
 But there is a better way.
 
 ## ConvexValue
+
+The ConvexValue Terminal replaces your browser. But it isn't just another browser.
+
+It is a software product custom-built from the ground up for the sole purpose of doing financial analytics.
+
+One of its features is that you cannot browse the internet. You can only browse modules from a curated selection of high quality financial analytics tools.
